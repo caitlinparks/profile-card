@@ -1,0 +1,32 @@
+body {
+    background-color: beige;
+    text-align: center;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.profile-card {
+    display: inline-block;
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 16px;
+    padding: 2em;
+    margin-top: 3em;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.profile-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    margin-bottom: 1em;
+    object-fit: cover;
+}
